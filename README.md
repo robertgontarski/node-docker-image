@@ -12,7 +12,7 @@ This Docker image is based on Ubuntu and includes basic tools as well as Node.js
   - `git`
   - `zip`
   - `vim`
-- Node.js (latest) installed via NVM.
+- Node.js `latest` installed via `NVM`.
 
 ## Installation and Usage
 
@@ -59,7 +59,7 @@ docker-compose up -d
 
 ### Working in the Container
 
-Once the container is running, the working directory is set to /var/www. You can now work in this directory, install additional packages, run Node.js applications, etc.
+Once the container is running, the working directory is set to `/var/www`. You can now work in this directory, install additional packages, run Node.js applications, etc.
 
 ## License
 
