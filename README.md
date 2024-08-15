@@ -2,17 +2,12 @@
 
 ## Description
 
-This Docker image is based on Ubuntu and includes basic tools as well as Node.js installed using NVM (Node Version Manager).
+This Docker image is based on linux and includes basic tools as well as Node.js installed using NVM (Node Version Manager).
 
-## What’s Included
+## Supported Tags
 
-- Ubuntu as the base operating system.
-- Installed tools:
-  - `curl`
-  - `git`
-  - `zip`
-  - `vim`
-- Node.js `latest` installed via `NVM`.
+- `latest` - the latest version of Node.js based on `Ubuntu 20.10`
+- `slim` - the latest version of Node.js based on `Debian trixie-slim`
 
 ## Installation and Usage
 
