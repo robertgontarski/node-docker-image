@@ -1,5 +1,12 @@
 FROM ubuntu:24.10
 
+LABEL version="latest"
+LABEL description="NodeJS latest version with nvm based on Ubuntu 24.10"
+LABEL maintainer="robertgontarski"
+LABEL source="https://github.com/robertgontarski/node-docker-image"
+LABEL license="MIT"
+LABEL type="languages and frameworks"
+
 RUN apt update
 RUN apt install -y \
     curl \
