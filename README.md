@@ -61,6 +61,20 @@ docker-compose up -d
 
 Once the container is running, the working directory is set to `/var/www`. You can now work in this directory, install additional packages, run Node.js applications, etc.
 
+### How to change Node.js version
+
+To change the Node.js version, you can use the following command:
+
+```bash
+nvm install <version>
+```
+
+If you want to use the installed version as the default, use the following command:
+
+```bash
+nvm alias default <version>
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
