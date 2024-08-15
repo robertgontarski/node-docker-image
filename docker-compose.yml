@@ -1,0 +1,8 @@
+services:
+  node:
+    image: robertgontarski/node
+    volumes:
+      - .:/var/www
+    ports:
+      - 3000:3000
+    tty: true
