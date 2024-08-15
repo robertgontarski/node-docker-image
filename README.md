@@ -2,7 +2,7 @@
 
 ## Description
 
-This Docker image is based on linux and includes basic tools as well as Node.js installed using NVM (Node Version Manager).
+This Docker image is based on linux and includes basic tools as well as Node.js installed using NVM.
 
 ## Supported Tags
 
